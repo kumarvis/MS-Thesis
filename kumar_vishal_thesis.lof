@@ -1,0 +1,31 @@
+\addvspace {1em}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Localization is a process that determine the position of a robot/human pedestrians in a given environment.\relax }}{2}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Figure shows a generic model of Content-based image retrieval system. User can fire the query in form of images in result system return the similar images from the database.\relax }}{3}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Two dimensional data points(blue) are projected along the vector $u_1$(red) in order to reduce the dimensionality.\relax }}{4}
+\addvspace {1em}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Figure is decepting a general ANN model and different layers.\relax }}{9}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces The training set is split into $k$ smaller sets and a model is trained using $k-1$ of the folds as training data. The resulting model is validated on the remaining part of the data. The performance measure reported by $k$-fold cross-validation is then the average of the values computed in the loop.\relax }}{12}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Steps for constructing the bag-of-words for image representation. In first and second step finding the interest region and feature extractions are performed. While in third and fourth step clustering of features and histogram representation of the images are done.\relax }}{13}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Trifocal geometry of three views. $X$ is a $3D$ point viewed from three camera having optical center $C$, $C'$ and $C''$.\relax }}{15}
+\addvspace {1em}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Histogram of {\sc g}ps localization error (top row) of a \emph {stationary} {\sc g}ps sensor, showing how inaccurate they can be. Bottom row is an example of two images belonging to the approximately same pose. Visual localization is inaccurate here since in one image the object is occluded, while {\sc g}ps sensors give accurate localization.\relax }}{19}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces (a) Problem Statement: We want to simultaneously use the noisy {\sc g}ps signals and erroneous visual localization to generate accurate localization. (b) The block diagram of the proposed method.\relax }}{21}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces { }}}{21}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces { }}}{21}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Original image features (a) vs those features which could be considered useful features (b). Transient objects, occlusions in the foreground and non-distinctive areas of the scenes are found to be without useful features.\relax }}{23}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces { }}}{23}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces { }}}{23}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Flow chart to extract the useful features. For each query image we retrieve top k images using SIFT BoW. If the geographical distance between the query image and the retrieve image is less then a threshold then we find the inliers between tag them as a useful feature.\relax }}{24}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Plot demonstrating the noisy and refined {\sc g}ps signals. One can observe refined {\sc g}ps signal (red) is less random and in zig-zag shape as compare to noisy {\sc g}ps signal (green). \relax }}{28}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Plot is demonstrating the synthetic noise reduction process and comparison between Random walks and simply taking the mean. It is clear from the graph as contamination percentage increase Mean is not that much efficient comparison to Random walks in order to remove the added noise. \relax }}{31}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Bar graph visualization of percentage error in localization using different methodologies.\relax }}{33}
+\addvspace {1em}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Battery level variation on a smartphone with and without Wi-Fi enabled (Data transfer: 2KB at 5 minute intervals).\relax }}{35}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces World wide percentage of mobile phone users and prediction, who use internet or email on their phone in $2014-2019$\cite {survey}.\relax }}{36}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Component-wise energy consumption on Android (Jeff Sharkey\nobreakspace {}\cite {bworld}).\relax }}{38}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Duration of time spend under different states (high power, low power and idle) by applications under Bundled and Unbundled packets transfer mode (Kumar Rangarajana\nobreakspace {}\cite {battery})\relax }}{39}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Primary steps in the algorithm with data flow. Feature extraction module extracts the Accelerometer based, usage based and interaction based features. Classification module predicts the user activity level using SVM Classifier and Wi-Fi Scheduling Module schedules the Wi-Fi state based on the predicted output.\relax }}{40}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Percentage drop in battery with time under different settings (Dev.1 and Dev.2).\relax }}{46}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Tuning number of neigbours(\textit {k}). We vary \textit {k} from 1 to 30 and report the mean error on the validation set. We can see after \textit {k} = 16 the error rate is almost constant which indiactes absence of noise in the model.\relax }}{48}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Grid search on the dataset to find the optimal C and Gamma pair for the SVM model.\relax }}{49}
+\addvspace {1em}

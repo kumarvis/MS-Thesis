@@ -1,0 +1,14 @@
+\addvspace {1em}
+\addvspace {1em}
+\addvspace {1em}
+\contentsline {table}{\numberline {3.1}{\ignorespaces Effect of useful features on visual localization. There is a significant drop in percentage error in visual localization with useful features. As $d$ increases the increase in number of inliers are very less. Therefore useful features are almost constant for different values of $d$. Hence the drop in $P_e$ error is less. NA=Not Applicable, OF=Original Features, UF=Useful Features as shown in Figure 3.3\hbox {}.\relax }}{29}
+\contentsline {table}{\numberline {3.2}{\ignorespaces Mean RMSE comparison of noisy and refined {\sc g}ps signal. For refined {\sc g}ps signal RMSE values $\approx $7m.\relax }}{30}
+\contentsline {table}{\numberline {3.3}{\ignorespaces Effect of refined signal on percentage error. With small value of $\delta _d$ there is significant difference in the performance. As $\delta _d$ increases the performance gap is narrowed down.NS = Noisy Signal, RS = Refined Signal.\relax }}{32}
+\contentsline {table}{\numberline {3.4}{\ignorespaces Comparison of percentage error $P_e$ in localization with $\delta _d$ =7.5m while using the methods i)Bag-of-Words frame work ii)Bag-of-Words frame work + Integration of modules iii)Bag-of-Words frame work + Integration of modules + Sequential Localization.\relax }}{32}
+\addvspace {1em}
+\contentsline {table}{\numberline {4.1}{\ignorespaces Class weights assigned to different activity level while training.\relax }}{43}
+\contentsline {table}{\numberline {4.2}{\ignorespaces Energy Efficiency Testing: Percentage battery dropped in Samsung Galaxy S (Dev.1) and HTC Explorer (Dev.2) during controlled tests.\relax }}{45}
+\contentsline {table}{\numberline {4.3}{\ignorespaces User Happiness: Count of Number of times Wi-Fi was manually turned on.\relax }}{45}
+\contentsline {table}{\numberline {4.4}{\ignorespaces Specifications of the phones on which testing was conducted.\relax }}{47}
+\contentsline {table}{\numberline {4.5}{\ignorespaces User Happiness: Count of Number of times Wi-Fi was manually turned on.\relax }}{50}
+\addvspace {1em}

@@ -1,0 +1,70 @@
+\contentsline {chapter}{\numberline {1}Introduction}{1}
+\contentsline {section}{\numberline {1.1}Computer Vision and Machine Learning Concepts}{3}
+\contentsline {subsection}{\numberline {1.1.1}Content based image retrieval}{3}
+\contentsline {subsection}{\numberline {1.1.2}Classification}{4}
+\contentsline {subsection}{\numberline {1.1.3}Dimensionality Reduction}{4}
+\contentsline {section}{\numberline {1.2}Problem Statement and Contribution}{5}
+\contentsline {section}{\numberline {1.3}Thesis Outline}{5}
+\contentsline {chapter}{\numberline {2}Background}{6}
+\contentsline {section}{\numberline {2.1}Machine Learning Concepts}{6}
+\contentsline {subsection}{\numberline {2.1.1}Principal Component Analysis}{6}
+\contentsline {subsection}{\numberline {2.1.2}Support Vector Machine}{7}
+\contentsline {subsubsection}{\numberline {2.1.2.1}Kernelized Approaches}{8}
+\contentsline {subsubsection}{\numberline {2.1.2.2}Multiclass SVM}{8}
+\contentsline {subsection}{\numberline {2.1.3}Artificial Neural Networks(ANN)}{8}
+\contentsline {subsubsection}{\numberline {2.1.3.1}Structure of Artificial Neural Networks}{9}
+\contentsline {subsection}{\numberline {2.1.4}Nearest Neighbors}{10}
+\contentsline {subsection}{\numberline {2.1.5}Random Walks on Graphs}{10}
+\contentsline {subsection}{\numberline {2.1.6}Evaluation Measures}{11}
+\contentsline {section}{\numberline {2.2}Computer Vision Concepts}{11}
+\contentsline {subsection}{\numberline {2.2.1}Bag Of Words}{11}
+\contentsline {subsubsection}{\numberline {2.2.1.1}Interest Point Detection}{12}
+\contentsline {subsubsection}{\numberline {2.2.1.2}Local Descriptors}{13}
+\contentsline {subsubsection}{\numberline {2.2.1.3}Visual Word Generation/Vector Clustering}{14}
+\contentsline {subsubsection}{\numberline {2.2.1.4}Building Inverted Index}{14}
+\contentsline {subsubsection}{\numberline {2.2.1.5}Query Handling}{14}
+\contentsline {subsection}{\numberline {2.2.2}Trifocal Tensor}{14}
+\contentsline {chapter}{\numberline {3}Accurate Localization by Fusing Images and GPS Signals}{18}
+\contentsline {section}{\numberline {3.1}Introduction}{18}
+\contentsline {subsection}{\numberline {3.1.1}Related Work}{20}
+\contentsline {subsection}{\numberline {3.1.2}Contributions}{21}
+\contentsline {section}{\numberline {3.2}Use of GPS for Better Visual Localization and Extracting Useful Features}{22}
+\contentsline {section}{\numberline {3.3}Improving GPS Signals through Image Retrieval}{23}
+\contentsline {subsection}{\numberline {3.3.1}Details of Algorithm}{23}
+\contentsline {subsubsection}{\numberline {3.3.1.1}Robust Estimation through Random Walks}{25}
+\contentsline {subsubsection}{\numberline {3.3.1.2}Adaptive Damping Factor}{25}
+\contentsline {section}{\numberline {3.4}Improving the Localization}{26}
+\contentsline {section}{\numberline {3.5}Experiments and Results}{27}
+\contentsline {subsection}{\numberline {3.5.1}Effect of Useful Features on Visual Localization}{28}
+\contentsline {subsection}{\numberline {3.5.2}Refined vs Noisy GPS Signals RMSE Score}{29}
+\contentsline {subsection}{\numberline {3.5.3}Comparison of Denoising using Synthetic Noise}{30}
+\contentsline {subsection}{\numberline {3.5.4}Effect of Refined GPS Signal On Localization:}{30}
+\contentsline {subsection}{\numberline {3.5.5}Multi Sensor Localization}{31}
+\contentsline {section}{\numberline {3.6}Summary}{33}
+\contentsline {chapter}{\numberline {4}Modeling User Activity for Conserving Power on Smartphones}{34}
+\contentsline {section}{\numberline {4.1}Introduction}{34}
+\contentsline {subsection}{\numberline {4.1.1}Contributions}{36}
+\contentsline {subsection}{\numberline {4.1.2}Related Work}{37}
+\contentsline {section}{\numberline {4.2}What consumes Power?}{38}
+\contentsline {section}{\numberline {4.3}Wi-Fi scheduling as Multi class Classification}{39}
+\contentsline {section}{\numberline {4.4}Classification Frame Work}{40}
+\contentsline {subsection}{\numberline {4.4.1}Feature Extraction}{40}
+\contentsline {subsubsection}{\numberline {4.4.1.1}Accelerometer Based Features}{41}
+\contentsline {subsubsection}{\numberline {4.4.1.2}System Usage Based Features}{42}
+\contentsline {subsubsection}{\numberline {4.4.1.3}Interaction Based Features}{42}
+\contentsline {subsection}{\numberline {4.4.2}Training and Classification}{43}
+\contentsline {subsubsection}{\numberline {4.4.2.1}Training}{43}
+\contentsline {subsubsection}{\numberline {4.4.2.2}Classification}{43}
+\contentsline {section}{\numberline {4.5}Experimentation and Results}{43}
+\contentsline {subsection}{\numberline {4.5.1}Implementation}{44}
+\contentsline {subsection}{\numberline {4.5.2}Power saved by the software}{44}
+\contentsline {subsection}{\numberline {4.5.3}Measuring User Happiness}{46}
+\contentsline {section}{\numberline {4.6}Experiment Extended}{46}
+\contentsline {subsection}{\numberline {4.6.1}Dataset Collection and Hyperparameter Tuning}{47}
+\contentsline {subsubsection}{\numberline {4.6.1.1}\textit {k}NN Paramaeter Tuning}{48}
+\contentsline {subsubsection}{\numberline {4.6.1.2}SVM Parameter Tuning}{48}
+\contentsline {subsubsection}{\numberline {4.6.1.3}Neural Networks Paramaeter Tuning}{49}
+\contentsline {section}{\numberline {4.7}Summary}{49}
+\contentsline {chapter}{\numberline {5}Conclusions and future work}{51}
+{\@tempskipb 3.0ex plus 1pt\relax }
+\contentsline {chapter}{{Bibliography}}{54}

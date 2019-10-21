@@ -1,0 +1,323 @@
+\begin{thebibliography}{10}
+
+\bibitem{survey}
+Mobile phone internet user penetration worldwide from 2014 to 2019.
+\newblock {\em
+  \url{http://www.statista.com/statistics/284202/mobile-phone-internet-user-penetration-worldwide/}}.
+
+\bibitem{bworld}
+Jeffrey Sharkey.
+\newblock Coding for life battery life, that is, 2009.
+\newblock
+  \url{http://dl.google.com/io/2009/pres/W%5F0300%5FCodingforLife-BatteryLifeThatIs.pdf}.
+
+\bibitem{battery}
+Kumar Rangarajana.
+\newblock Android battery consumption - the what and how, 2012.
+\newblock
+  \url{http://www.slideshare.net/littleeye/power-optimization-for-android-developers}.
+
+\bibitem{bonnifait2001data}
+Philippe Bonnifait, Pascal Bouron, Paul Crubill{\'e}, and Dominique Meizel.
+\newblock Data fusion of four abs sensors and gps for an enhanced localization
+  of car-like vehicles.
+\newblock In {\em Robotics and Automation, 2001}. IEEE.
+
+\bibitem{koneru2011fuzzy}
+Ujwal Koneru, Sangram Redkar, and Anshuman Razdan.
+\newblock Fuzzy logic based sensor fusion for accurate tracking.
+\newblock In {\em International Symposium on Visual Computing, 2011}. Springer.
+
+\bibitem{hays2008im2gps}
+James Hays and Alexei~A Efros.
+\newblock Im2gps: Estimating geographic information from a single image.
+\newblock In {\em CVPR}. IEEE, 2008.
+
+\bibitem{carroll2010analysis}
+Aaron Carroll and Gernot Heiser.
+\newblock An analysis of power consumption in a smartphone.
+\newblock In {\em USENIX annual technical conference}. Boston, MA.
+
+\bibitem{smeulders2000content}
+Arnold~WM Smeulders, Marcel Worring, Simone Santini, Amarnath Gupta, and Ramesh
+  Jain.
+\newblock Content-based image retrieval at the end of the early years.
+\newblock {\em IEEE Transactions on pattern analysis and machine intelligence}.
+
+\bibitem{gudivada1995content}
+Venkat~N Gudivada and Vijay~V Raghavan.
+\newblock Content based image retrieval systems.
+
+\bibitem{hotelling}
+Harold Hotelling.
+\newblock Analysis of a complex of statistical variables into principal
+  components.
+\newblock {\em Journal of educational psychology}, 1933.
+
+\bibitem{prml}
+Christopher~M Bishop.
+\newblock {\em Pattern recognition and machine learning}.
+\newblock Springer, 2006.
+
+\bibitem{activation_function}
+Activation function.
+\newblock {\em \url{https://en.wikipedia.org/wiki/Activation_function/}}.
+
+\bibitem{heaton2008introduction}
+Jeff Heaton.
+\newblock {\em Introduction to neural networks with Java}.
+\newblock Heaton Research, 2008.
+
+\bibitem{lmnn}
+Kilian~Q Weinberger, John Blitzer, and Lawrence~K Saul.
+\newblock Distance metric learning for large margin nearest neighbor
+  classification.
+\newblock In {\em Advances in neural information processing systems}, 2005.
+
+\bibitem{random_walks}
+Random-walks-graphs.
+\newblock {\em
+  \url{https://people.math.osu.edu/husen.1/teaching/571/random_walks.pdf/}}.
+
+\bibitem{cross_validation}
+Cross-validation.
+\newblock {\em
+  \url{https://en.wikipedia.org/wiki/Cross-validation_(statistics)}}.
+
+\bibitem{bosch_best}
+Anna Bosch, Xavier Mu{\~n}oz, and Robert Mart{\'\i}.
+\newblock Which is the best way to organize/classify images by content?
+\newblock {\em Image and vision computing}.
+
+\bibitem{tsai2012bag}
+Chih-Fong Tsai.
+\newblock Bag-of-words representation in image annotation: A review.
+\newblock {\em ISRN Artificial Intelligence}.
+
+\bibitem{mikolajczyk2005local}
+Krystian Mikolajczyk, Bastian Leibe, and Bernt Schiele.
+\newblock Local features for object class recognition.
+\newblock In {\em Computer Vision. ICCV 2005. Tenth IEEE International
+  Conference on}. IEEE.
+
+\bibitem{tuytelaars2008local}
+Tinne Tuytelaars and Krystian Mikolajczyk.
+\newblock Local invariant feature detectors: a survey.
+\newblock {\em Foundations and Trends{\textregistered} in Computer Graphics and
+  Vision}.
+
+\bibitem{lowe2004distinctive}
+David~G Lowe.
+\newblock Distinctive image features from scale-invariant keypoints.
+\newblock {\em International journal of computer vision}.
+
+\bibitem{quelhas2007thousand}
+Pedro Quelhas, Florent Monay, Jean-Marc Odobez, Daniel Gatica-Perez, and Tinne
+  Tuytelaars.
+\newblock A thousand words in a scene.
+\newblock {\em Pattern Analysis and Machine Intelligence, IEEE}.
+
+\bibitem{mikolajczyk2005performance}
+Krystian Mikolajczyk and Cordelia Schmid.
+\newblock A performance evaluation of local descriptors.
+\newblock {\em Pattern Analysis and Machine Intelligence, IEEE Transactions
+  on}.
+
+\bibitem{zhang2007local}
+Jianguo Zhang, Marcin Marsza{\l}ek, Svetlana Lazebnik, and Cordelia Schmid.
+\newblock Local features and kernels for classification of texture and object
+  categories: A comprehensive study.
+\newblock {\em International journal of computer vision}.
+
+\bibitem{jiang2010representations}
+Yu-Gang Jiang, Jun Yang, Chong-Wah Ngo, and Alexander~G Hauptmann.
+\newblock Representations of keypoint-based semantic concept detection: A
+  comprehensive study.
+\newblock {\em Multimedia, IEEE}.
+
+\bibitem{nister2006scalable}
+David Nister and Henrik Stewenius.
+\newblock Scalable recognition with a vocabulary tree.
+\newblock In {\em Computer Vision and Pattern Recognition, 2006 IEEE Computer
+  Society Conference}.
+
+\bibitem{hartley2003multiple}
+Richard Hartley and Andrew Zisserman.
+\newblock {\em Multiple view geometry in computer vision}.
+
+\bibitem{maier2010improved}
+Daniel Maier and Alexander Kleiner.
+\newblock Improved gps sensor model for mobile robots in urban terrain.
+\newblock In {\em ICRA}. IEEE, 2010.
+
+\bibitem{lin2013cross}
+Tsung-Yi Lin, Serge Belongie, and James Hays.
+\newblock Cross-view image geolocalization.
+\newblock In {\em CVPR}. IEEE, 2013.
+
+\bibitem{hafez2013visual}
+AH~Hafez, Manpreet Singh, K~Madhava Krishna, and CV~Jawahar.
+\newblock Visual localization in highly crowded urban environments.
+\newblock In {\em IROS}. IEEE, 2013.
+
+\bibitem{martin2010precise}
+Eladio Martin, Oriol Vinyals, Gerald Friedland, and Ruzena Bajcsy.
+\newblock Precise indoor localization using smart phones.
+\newblock In {\em Proceedings of the international conference on Multimedia}.
+  ACM, 2010.
+
+\bibitem{wei2011intelligent}
+Lijun Wei, Cindy Cappelle, Yassine Ruichek, and Fr{\'e}d{\'e}rick Zann.
+\newblock Intelligent vehicle localization in urban environments using
+  ekf-based visual odometry and gps fusion.
+\newblock In {\em World Congress}, 2011.
+
+\bibitem{cummins2008fab}
+Mark Cummins and Paul Newman.
+\newblock Fab-map: Probabilistic localization and mapping in the space of
+  appearance.
+\newblock {\em The International Journal of Robotics Research}, 2008.
+
+\bibitem{Zamir_2014_CVPR}
+Amir Roshan~Zamir, Shervin Ardeshir, and Mubarak Shah.
+\newblock Gps-tag refinement using random walks with an adaptive damping
+  factor.
+\newblock In {\em CVPR}, 2014.
+
+\bibitem{milford2012seqslam}
+Michael~J Milford and Gordon~Fraser Wyeth.
+\newblock Seqslam: Visual route-based navigation for sunny summer days and
+  dtormy winter nights.
+\newblock In {\em ICRA}. IEEE, 2012.
+
+\bibitem{cummins2011appearance}
+Mark Cummins and Paul Newman.
+\newblock Appearance-only slam at large scale with fab-map 2.0.
+\newblock {\em The International Journal of Robotics Research}, 2011.
+
+\bibitem{levinson2007map}
+Jesse Levinson, Michael Montemerlo, and Sebastian Thrun.
+\newblock Map-based precision vehicle localization in urban environments.
+\newblock In {\em Robotics: Science and Systems}. Citeseer, 2007.
+
+\bibitem{turcot2009better}
+Panu Turcot and David~G Lowe.
+\newblock Better matching with fewer features: The selection of useful features
+  in large database recognition problems.
+\newblock In {\em ICCV Workshops}. IEEE, 2009.
+
+\bibitem{knopp2010avoiding}
+Jan Knopp, Josef Sivic, and Tomas Pajdla.
+\newblock Avoiding confusing features in place recognition.
+\newblock In {\em ECCV}. Springer, 2010.
+
+\bibitem{wu2011multicore}
+Changchang Wu, Sameer Agarwal, Brian Curless, and Steven~M Seitz.
+\newblock Multicore bundle adjustment.
+\newblock In {\em CVPR}. IEEE, 2011.
+
+\bibitem{jing2008visualrank}
+Yushi Jing and Shumeet Baluja.
+\newblock Visualrank: Applying pagerank to large-scale image search.
+\newblock {\em Pattern Analysis and Machine Intelligence}, 2008.
+
+\bibitem{contour_camera}
+Contour+2 action camera.
+\newblock {\em \url{http://contour.com/cameras/contour2/}}.
+
+\bibitem{Sun}
+Lin Sun, Daqing Zhang, Bin Li, Bin Guo, and Shijian Li.
+\newblock Activity recognition on an accelerometer embedded mobile phone with
+  varying positions and orientations.
+\newblock In {\em Proceedings of the 7th International Conference on Ubiquitous
+  Intelligence and Computing}.
+
+\bibitem{bao}
+L.~Bao and S.~S. Intille.
+\newblock {Activity Recognition from User-Annotated Acceleration Data}.
+
+\bibitem{lester}
+Jonathan Lester, Tanzeem Choudhury, Nicky Kern, Gaetano Borriello, and Blake
+  Hannaford.
+\newblock A hybrid discriminative/generative approach for modeling human
+  activities.
+\newblock In {\em Proceedings of the 19th International Joint Conference on
+  Artificial Intelligence}.
+
+\bibitem{ravi}
+Nishkam Ravi, Nikhil Dandekar, Preetham Mysore, and Michael~L. Littman.
+\newblock Activity recognition from accelerometer data.
+\newblock In {\em Proceedings of the 17th Conference on Innovative Applications
+  of Artificial Intelligence - Volume 3}.
+
+\bibitem{maurer}
+Uwe Maurer, Asim Smailagic, Daniel~P. Siewiorek, and Michael Deisher.
+\newblock Activity recognition and monitoring using multiple sensors on
+  different body positions.
+\newblock In {\em Proceedings of the International Workshop on Wearable and
+  Implantable Body Sensor Networks}.
+
+\bibitem{lester2}
+Jonathan Lester, Tanzeem Choudhury, and Gaetano Borriello.
+\newblock A practical approach to recognizing physical activities.
+\newblock In {\em Proceedings of the 4th International Conference on Pervasive
+  Computing}.
+
+\bibitem{wu}
+Jiahui Wu, Gang Pan, Daqing Zhang, Guande Qi, and Shijian Li.
+\newblock Gesture recognition with a 3-d accelerometer.
+\newblock In {\em Proceedings of the 6th International Conference on Ubiquitous
+  Intelligence and Computing}.
+
+\bibitem{rai}
+Angshu Rai, Zhixian Yan, Dipanjan Chakraborty, Tri~Kurniawan Wijaya, and Karl
+  Aberer.
+\newblock Mining complex activities in the wild via a single smartphone
+  accelerometer.
+\newblock In {\em Proceedings of the Sixth International Workshop on Knowledge
+  Discovery from Sensor Data}.
+
+\bibitem{weiss}
+Gary Weiss and Jeffrey Lockhart.
+\newblock The impact of personalization on smartphone-based activity
+  recognition.
+\newblock In {\em Activity Context Representation: Techniques and Languages
+  Workshop at Association for the Advancement of Artificial Intelligence}.
+
+\bibitem{longstaff}
+Brent Longstaff, Sasank Reddy, and Deborah Estrin.
+\newblock Improving activity classification for health applications on mobile
+  devices using active and semi-supervised learning.
+\newblock In {\em Proceedings of Pervasive Health}.
+
+\bibitem{elder}
+A.~Sixsmith and N.~Johnson.
+\newblock {A Smart Sensor to Detect the Falls of the Elderly}.
+\newblock {\em Proceedings of the IEEE International Conference on Pervasive
+  Computing and Communications}.
+
+\bibitem{yan}
+Zhixian Yan, Vigneshwaran Subbaraju, Dipanjan Chakraborty, Archan Misra, and
+  Karl Aberer.
+\newblock Energy-efficient continuous activity recognition on mobile phones: An
+  activity-adaptive approach.
+\newblock In {\em Proceedings of 16th Annual International Symposium on
+  Wearable Computers (ISWC)}.
+
+\bibitem{location}
+Zhenyun Zhuang, Kyu-Han Kim, and Jatinder~Pal Singh.
+\newblock Improving energy efficiency of location sensing on smartphones.
+\newblock In {\em Proceedings of the 8th International Conference on Mobile
+  Systems, Applications, and Services}.
+
+\bibitem{scite_learn_framework}
+Scit-learn.
+\newblock {\em
+  \url{https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPClassifier.html}}.
+
+\bibitem{hilton_web_archive}
+Introduction to neural networks with java.
+\newblock {\em
+  \url{https://www.heatonresearch.com/2017/06/01/hidden-layers.html}}.
+
+\end{thebibliography}

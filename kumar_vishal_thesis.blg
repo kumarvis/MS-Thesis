@@ -1,0 +1,118 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: kumar_vishal_thesis.aux
+The style file: unsrt.bst
+Database file #1: sampleBib.bib
+Repeated entry---line 112 of file sampleBib.bib
+ : @inproceedings{mikolajczyk2005local
+ :                                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 166 of file sampleBib.bib
+ : @inproceedings{levinson2007map
+ :                               ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 308 of file sampleBib.bib
+ : 
+ : organization={IEEE}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 310 of file sampleBib.bib
+ : @inproceedings{nister2006scalable
+ :                                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 341 of file sampleBib.bib
+ : @article{cummins2011appearance
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 373 of file sampleBib.bib
+ : @inproceedings{nister2006scalable
+ :                                  ,
+I'm skipping whatever remains of this entry
+Warning--empty author in survey
+Warning--empty year in survey
+Warning--empty year in bonnifait2001data
+Warning--empty year in koneru2011fuzzy
+Warning--empty year in carroll2010analysis
+Warning--empty year in smeulders2000content
+Warning--empty journal in gudivada1995content
+Warning--empty year in gudivada1995content
+Warning--empty author in activation_function
+Warning--empty year in activation_function
+Warning--empty author in random_walks
+Warning--empty year in random_walks
+Warning--empty author in cross_validation
+Warning--empty year in cross_validation
+Warning--empty year in bosch_best
+Warning--empty year in tsai2012bag
+Warning--empty year in mikolajczyk2005local
+Warning--empty year in tuytelaars2008local
+Warning--empty year in lowe2004distinctive
+Warning--empty year in quelhas2007thousand
+Warning--empty year in mikolajczyk2005performance
+Warning--empty year in zhang2007local
+Warning--empty year in jiang2010representations
+Warning--empty year in nister2006scalable
+Warning--empty publisher in hartley2003multiple
+Warning--empty year in hartley2003multiple
+Warning--empty author in contour_camera
+Warning--empty year in contour_camera
+Warning--empty year in Sun
+Warning--empty journal in bao
+Warning--empty year in bao
+Warning--empty year in lester
+Warning--empty year in ravi
+Warning--empty year in maurer
+Warning--empty year in lester2
+Warning--empty year in wu
+Warning--empty year in rai
+Warning--empty year in weiss
+Warning--empty year in longstaff
+Warning--empty year in elder
+Warning--empty year in yan
+Warning--empty year in location
+Warning--empty author in scite_learn_framework
+Warning--empty year in scite_learn_framework
+Warning--empty author in hilton_web_archive
+Warning--empty year in hilton_web_archive
+You've used 57 entries,
+            1791 wiz_defined-function locations,
+            677 strings with 12885 characters,
+and the built_in function-call counts, 9851 in all, are:
+= -- 685
+> -- 529
+< -- 0
++ -- 200
+- -- 143
+* -- 523
+:= -- 1576
+add.period$ -- 175
+call.type$ -- 57
+change.case$ -- 54
+chr.to.int$ -- 0
+cite$ -- 103
+duplicate$ -- 573
+empty$ -- 1141
+format.name$ -- 143
+if$ -- 2220
+int.to.chr$ -- 0
+int.to.str$ -- 57
+missing$ -- 58
+newline$ -- 278
+num.names$ -- 50
+pop$ -- 355
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 162
+stack$ -- 0
+substring$ -- 0
+swap$ -- 83
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 46
+while$ -- 50
+width$ -- 59
+write$ -- 530
+(There were 6 error messages)
