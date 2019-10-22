@@ -456,19 +456,20 @@ C and Gamma are the parameters for a nonlinear support vector machine(SVM) with 
 \end{center}
 
 
-\subsubsection{Neural Networks Paramaeter Tuning} While training a neural network we have to make many decisions regarding the following hyperparameter those are (i) \textit{Number of hidden layers} (ii) \textit{Number of hidden units for each hidden layer} (iii) \textit{Learning rate } (iv) \textit{ Solver}. We have used scit-learn framework~\cite{scite_learn_framework} to tune these hyperparameters.
+\subsubsection{Neural Networks Paramaeter Tuning} While training a neural network we have to make many decisions regarding the following hyperparameter those are (i) \textit{Solver} (ii) \textit{Number of hidden layers} and \textit{Number of hidden units for each hidden layer} (iii) \textit{Learning rate }. We have used scit-learn framework~\cite{scite_learn_framework} to tune these hyperparameters.
 
 \textbf{Solver:} The default solver \textit{adam} for the scikit-learn works good with relatively large dataset with thousands of training samples. For small dataset \textit{lbfgs} converge faster and perform better~\cite{scite_learn_framework}. In all our experiments we have used \textit{lbfgs} solver.
 
-\textbf{Number of Hidden Layers and Hidden Units:} We have two decesions to made (i) \textit{How many hidden layers} (ii) \textit{How many units in each hideen layer}. We will first fix the number of hidden layer to use in neural network. From \textit{Introduction to Neural Networks for Java, second edition} by \textit{Jeff Heaton} summarizes the capabilities of neural network architectures(\cite{hilton_web_archive}) with various hidden layers like Table~\ref{tab:no_hdn_layer}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{table}[h]
+\textbf{Number of Hidden Layers and Hidden Units:} We have two decesions to made (i) \textit{How many hidden layers} (ii) \textit{How many units in each hideen layer}. We will first fix the number of hidden layer to use in neural network. From \textit{Introduction to Neural Networks for Java, second edition} by \textit{Jeff Heaton} summarizes the capabilities of neural network architectures(\cite{hilton_web_archive}) with various hidden layers like Table \ref{tab:no_hdn_layer}. In our experiments we have considered upto to 2 hidden layers for our model. Deciding number of hidden layers is only a small part we shold also fix the the number of neurons in each hidden layer. Using too few neurons in the hidden layers will lead underfitt where as too many neurons can overfitt the model. In order to find the right number of neurons in hidden layer cross-validation accuracy mechanism were used.
 
+\begin{table}[h]
 \centering
 
-\begin{tabular}{|m{1.3cm}| m{12.0cm}|}
+
+\begin{tabular}{|P{1.3cm}| P{12.0cm}|}
+
 \hline
-\bf No. Hidden Layer & \bf Result \\
+\bf No Hidden Layer & \bf Result \\
 \hline
 0 & Only capable of representing linear separable functions or decisions. \\
 \hline
@@ -480,11 +481,14 @@ $>$2 & Additional layers can learn complex representations (sort of automatic fe
 \hline
 \end{tabular}
 
-\caption{User Happiness: Count of Number of times Wi-Fi was manually turned on.}
+\caption{Hidden layer units capability to capture data distribution.}
 \label{tab:no_hdn_layer}
-
 \end{table}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\textbf{Learning rate:}
+
+
+
 
 \section{Summary}
 Power consumption and the consequent low battery life is one of the primary limiting factors for modern mobile devices.
