@@ -28,4 +28,8 @@
 \contentsline {figure}{\numberline {4.6}{\ignorespaces Percentage drop in battery with time under different settings (Dev.1 and Dev.2).\relax }}{46}
 \contentsline {figure}{\numberline {4.7}{\ignorespaces Tuning number of neigbours(\textit {k}). We vary \textit {k} from 1 to 30 and report the mean error on the validation set. We can see after \textit {k} = 16 the error rate is almost constant which indiactes absence of noise in the model.\relax }}{48}
 \contentsline {figure}{\numberline {4.8}{\ignorespaces Grid search on the dataset to find the optimal C and Gamma pair for the SVM model.\relax }}{49}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Original image features (a) vs those features which could be considered useful features (b). Transient objects, occlusions in the foreground and non-distinctive areas of the scenes are found to be without useful features.\relax }}{50}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces { }}}{50}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces { }}}{50}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces { }}}{50}
 \addvspace {1em}

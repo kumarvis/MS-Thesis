@@ -485,8 +485,21 @@ $>$2 & Additional layers can learn complex representations (sort of automatic fe
 \label{tab:no_hdn_layer}
 \end{table}
 
-\textbf{Learning rate:}
+\textbf{Learning rate:} Learning rate is one of the most significant hyperparameter for neural netowrks. We cannot analytically calculate the optimal learning rate for a given model and dataset. Instead optimal learning rate must be discovered via trial and error. We have tried several combination with of learning rate with other hyperparameters.
 
+%%%%%% Original Features VS Useful Features %%%%%%%%%%%%%%
+\begin{figure}[h]
+\centering
+\subfloat[ ]{ \includegraphics[width=5.5cm,height=4cm]{lr01_hidden_layer01}}
+\subfloat[ ]{ \includegraphics[width=5.5cm,height=4cm]{lr02_hidden_layer01}}
+\subfloat[ ]{ \includegraphics[width=5.5cm,height=4cm]{lr03_hidden_layer01}}
+\caption{Original image features (a) vs those features which could 
+be considered useful features (b). Transient objects, occlusions in the 
+foreground and non-distinctive areas of the scenes are found to 
+be without useful features.}
+\label{fig:learning_rate_hiddenlayer01}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 
 
 
