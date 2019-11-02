@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.6.14)  1 NOV 2019 13:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.6.14)  3 NOV 2019 02:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -995,7 +995,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [45] [46 <./figures/BatterySavings.pdf>]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 434.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 435.
 
 Underfull \vbox (badness 3312) has occurred while \output is active []
 
@@ -1003,14 +1003,14 @@ Underfull \vbox (badness 3312) has occurred while \output is active []
 <figures/knn_err.png, id=446, 867.24pt x 433.62pt>
 File: figures/knn_err.png Graphic file (type png)
  <use figures/knn_err.png>
-Package pdftex.def Info: figures/knn_err.png used on input line 440.
+Package pdftex.def Info: figures/knn_err.png used on input line 441.
 (pdftex.def)             Requested size: 406.51599pt x 203.25887pt.
 
 <figures/svm_param_tuning.png, id=447, 383.18156pt x 271.76532pt>
 File: figures/svm_param_tuning.png Graphic file (type png)
 
 <use figures/svm_param_tuning.png>
-Package pdftex.def Info: figures/svm_param_tuning.png used on input line 452.
+Package pdftex.def Info: figures/svm_param_tuning.png used on input line 453.
 (pdftex.def)             Requested size: 361.35136pt x 256.29707pt.
 
 Underfull \vbox (badness 2088) has occurred while \output is active []
@@ -1019,39 +1019,43 @@ Underfull \vbox (badness 2088) has occurred while \output is active []
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/lr01_hidden_layer01.png, id=453, 425.33907pt x 339.51843pt>
+
+Underfull \vbox (badness 1365) has occurred while \output is active []
+
+ [49 <./figures/svm_param_tuning.png>]
+<figures/lr01_hidden_layer01.png, id=458, 425.33907pt x 339.51843pt>
 File: figures/lr01_hidden_layer01.png Graphic file (type png)
 
 <use figures/lr01_hidden_layer01.png>
-Package pdftex.def Info: figures/lr01_hidden_layer01.png used on input line 493
+Package pdftex.def Info: figures/lr01_hidden_layer01.png used on input line 495
 .
-(pdftex.def)             Requested size: 156.49033pt x 113.80801pt.
+(pdftex.def)             Requested size: 162.18217pt x 128.03401pt.
 
-<figures/lr02_hidden_layer01.png, id=454, 448.67625pt x 355.3275pt>
+<figures/lr02_hidden_layer01.png, id=459, 448.67625pt x 355.3275pt>
 File: figures/lr02_hidden_layer01.png Graphic file (type png)
 
 <use figures/lr02_hidden_layer01.png>
-Package pdftex.def Info: figures/lr02_hidden_layer01.png used on input line 494
+Package pdftex.def Info: figures/lr02_hidden_layer01.png used on input line 496
 .
-(pdftex.def)             Requested size: 156.4845pt x 113.81012pt.
+(pdftex.def)             Requested size: 162.18056pt x 128.03706pt.
 
-<figures/lr03_hidden_layer01.png, id=455, 448.67625pt x 354.57469pt>
+<figures/lr03_hidden_layer01.png, id=460, 448.67625pt x 354.57469pt>
 File: figures/lr03_hidden_layer01.png Graphic file (type png)
 
 <use figures/lr03_hidden_layer01.png>
-Package pdftex.def Info: figures/lr03_hidden_layer01.png used on input line 495
+Package pdftex.def Info: figures/lr03_hidden_layer01.png used on input line 497
 .
-(pdftex.def)             Requested size: 156.4845pt x 113.80707pt.
+(pdftex.def)             Requested size: 162.18056pt x 128.03633pt.
 
-Overfull \hbox (25.98428pt too wide) in paragraph at lines 493--499
+Overfull \hbox (43.06825pt too wide) in paragraph at lines 495--501
  [][][][] 
  []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[49 <./figures/svm_param_tuning.png>]) [50 <./figures/lr01_hidden_layer01.png> 
-<./figures/lr02_hidden_layer01.png> <./figures/lr03_hidden_layer01.png>]
+ [50 <./figures/lr01_hidden_layer01.png> <./figures/lr02_hidden_layer01.png> <.
+/figures/lr03_hidden_layer01.png>]) [51]
 {\it Chapter} 5.
 (./conclusion.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
@@ -1066,7 +1070,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--13
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [51
+ [52
 
 ]
 Missing character: There is no â in font ptmr7t!
@@ -1076,12 +1080,12 @@ Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
 )
-[52] (./relatedPapers.tex
+[53] (./relatedPapers.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
-) (./kumar_vishal_thesis.bbl [53
+) (./kumar_vishal_thesis.bbl [54
 
 ]
 LaTeX Font Info:    Font shape `OT1/pcr/m/it' in size <10.95> not available
@@ -1110,7 +1114,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--19
 are . net / littleeye /
  []
 
-[54
+[55
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 83--86
@@ -1120,13 +1124,13 @@ ikipedia . org / wiki / Cross-[]validation _
 
 LaTeX Font Info:    Font shape `OMS/ptm/m/it' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 106.
-[55] [56] [57]
+[56] [57] [58]
 Underfull \hbox (badness 10000) in paragraph at lines 314--317
 []\OT1/ptm/m/n/10.95 Scit-learn.  $\OT1/pcr/m/sl/10.95 https : / / scikit-[]lea
 rn . org / stable / modules / generated /
  []
 
-) [58] (./kumar_vishal_thesis.aux)
+) [59] (./kumar_vishal_thesis.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -1157,10 +1161,10 @@ type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times
 /utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on kumar_vishal_thesis.pdf (70 pages, 3906100 bytes).
+Output written on kumar_vishal_thesis.pdf (71 pages, 3906787 bytes).
 PDF statistics:
- 557 PDF objects out of 1000 (max. 8388607)
- 341 compressed objects within 4 object streams
+ 560 PDF objects out of 1000 (max. 8388607)
+ 343 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
  141 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -64,7 +64,7 @@
 \contentsline {subsubsection}{\numberline {4.6.1.1}\textit {k}NN Paramaeter Tuning}{48}
 \contentsline {subsubsection}{\numberline {4.6.1.2}SVM Parameter Tuning}{48}
 \contentsline {subsubsection}{\numberline {4.6.1.3}Neural Networks Paramaeter Tuning}{49}
-\contentsline {section}{\numberline {4.7}Summary}{50}
-\contentsline {chapter}{\numberline {5}Conclusions and future work}{51}
+\contentsline {section}{\numberline {4.7}Summary}{51}
+\contentsline {chapter}{\numberline {5}Conclusions and future work}{52}
 {\@tempskipb 3.0ex plus 1pt\relax }
-\contentsline {chapter}{{Bibliography}}{54}
+\contentsline {chapter}{{Bibliography}}{55}

@@ -426,7 +426,8 @@ user convenience. The battery usage vs. amount of battery saved confirms that th
 
 
 \section{Experiment Extended}
-We further extend the experiments and benchmark the performance of different machine learning algorithms with fresh dataset using same software as Section \ref{sec:Exp} by porting it on a ASUS low cost smart phone Table \ref{tab:phonespec}. We did the comparitive study of the three algorithms \textit{kNN, SVM and Neural Networks} by replicating the same set of experiments like power saved and user happiness as perfomed in previous Section \ref{sec:Exp}.
+We further extend the experiments and benchmark the performance of different machine learning algorithms with fresh dataset using same software as Section \ref{sec:Exp} by porting it on a ASUS low cost smart phone Table \ref{tab:phonespec}. We did the comparitive study of the three algorithms \textit{kNN, SVM and Neural Networks} on the newly collected dataset. 
+%%by benchmarking the by replicating the same set of experiments like power saved and user happiness as perfomed in previous Section \ref{sec:Exp}.
 
 \subsection{Dataset Collection and Hyperparameter Tuning}
 We followed exactly the same process for the dataset generation as done in previous Section \ref{sec:Exp}. After
@@ -460,7 +461,7 @@ C and Gamma are the parameters for a nonlinear support vector machine(SVM) with 
 
 \textbf{Solver:} The default solver \textit{adam} for the scikit-learn works good with relatively large dataset with thousands of training samples. For small dataset \textit{lbfgs} converge faster and perform better~\cite{scite_learn_framework}. In all our experiments we have used \textit{lbfgs} solver.
 
-\textbf{Number of Hidden Layers and Hidden Units:} We have two decesions to made (i) \textit{How many hidden layers} (ii) \textit{How many units in each hideen layer}. We will first fix the number of hidden layer to use in neural network. From \textit{Introduction to Neural Networks for Java, second edition} by \textit{Jeff Heaton} summarizes the capabilities of neural network architectures(\cite{hilton_web_archive}) with various hidden layers like Table \ref{tab:no_hdn_layer}. In our experiments we have considered upto to 2 hidden layers for our model. Deciding number of hidden layers is only a small part we shold also fix the the number of neurons in each hidden layer. Using too few neurons in the hidden layers will lead underfitt where as too many neurons can overfitt the model. In order to find the right number of neurons in hidden layer cross-validation accuracy mechanism were used.
+\textbf{Number of Hidden Layers and Hidden Units:} We have two decesions to made (i) \textit{How many hidden layers} (ii) \textit{How many units in each hideen layer}. We will first fix the number of hidden layer to use in neural network. From \textit{Introduction to Neural Networks for Java, second edition} by \textit{Jeff Heaton} summarizes the capabilities of neural network architectures(\cite{hilton_web_archive}) with various hidden layers like Table \ref{tab:no_hdn_layer}. In our experiments we have considered one hidden layer for our model. A neural network model with one hidden layer is capable enough for continous maping between two spaces(Table\ref{tab:no_hdn_layer}). Deciding number of hidden layers is only a small part we shold also fix the the number of neurons in each hidden layer. Using too few neurons in the hidden layers will lead underfitt where as too many neurons can overfitt the model. In order to find the right number of neurons in hidden layer cross-validation accuracy mechanism were used.
 
 \begin{table}[h]
 \centering
@@ -485,14 +486,15 @@ $>$2 & Additional layers can learn complex representations (sort of automatic fe
 \label{tab:no_hdn_layer}
 \end{table}
 
-\textbf{Learning rate:} Learning rate is one of the most significant hyperparameter for neural netowrks. We cannot analytically calculate the optimal learning rate for a given model and dataset. Instead optimal learning rate must be discovered via trial and error. We have tried several combination with of learning rate with other hyperparameters.
+\textbf{Learning rate:} Learning rate is one of the most significant hyperparameter for neural netowrks. We cannot analytically calculate the optimal learning rate for a given model and dataset. Instead optimal learning rate must be discovered via trial and error. We have tried several combination of learning rate with other hyperparameters.
 
+To train our model we have tried varying number of hidden units ranging from 6 to 28 along with different learning rates 0.1, 0.01 and 0.005. Figure \ref{fig:learning_rate_hiddenlayer01} shows the results for the train and validation set accuracy. From the figure~\ref{fig:learning_rate_hiddenlayer01} we can observe both validation and train dataset accuracy increases with the number of hidden units upto certian number. Further increase in hidden units has no effect on validation accuracy where as train accuracy keeps on increasing and overfit the model. Neural netowrk model with \textit{ hidden units = 18, learnin rate = 0.005} achieved \textit{train accuracy = 74.1 and validation accuracy = 72.3} which seems to be best balance between the model complexity and accuracy.
 %%%%%% Original Features VS Useful Features %%%%%%%%%%%%%%
 \begin{figure}[h]
 \centering
-\subfloat[ ]{ \includegraphics[width=5.5cm,height=4cm]{lr01_hidden_layer01}}
-\subfloat[ ]{ \includegraphics[width=5.5cm,height=4cm]{lr02_hidden_layer01}}
-\subfloat[ ]{ \includegraphics[width=5.5cm,height=4cm]{lr03_hidden_layer01}}
+\subfloat[ ]{ \includegraphics[width=5.7cm,height=4.5cm]{lr01_hidden_layer01}}
+\subfloat[ ]{ \includegraphics[width=5.7cm,height=4.5cm]{lr02_hidden_layer01}}
+\subfloat[ ]{ \includegraphics[width=5.7cm,height=4.5cm]{lr03_hidden_layer01}}
 \caption{Original image features (a) vs those features which could 
 be considered useful features (b). Transient objects, occlusions in the 
 foreground and non-distinctive areas of the scenes are found to 
